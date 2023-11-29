@@ -347,7 +347,7 @@ int main()
 	g = new gra;
 	init();
 	g->play(1);
-	//~ cout<<g->pos_id(2, g->T);
+	delete g;
 	return 0;
 }
 
